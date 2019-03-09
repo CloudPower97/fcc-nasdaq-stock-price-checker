@@ -26,7 +26,7 @@ exports.getPrices = ({ ip, query: { stock, like } }, res) => {
               )
             )
 
-            res.json({ stockData })
+            res.json({ stockData: stockData.pop() })
           })
           .catch(err => {
             res.status(400).json(err)
