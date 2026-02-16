@@ -27,9 +27,9 @@
     "nodemon": "^1.18.10"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^1.13.5",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "express": "^4.22.0",
     "helmet": "^3.15.0",
     "mongoose": "^5.4.17"
   }
